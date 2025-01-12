@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./components/**/*.{html,js}",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     colors: {
       brown: "#53423e",
@@ -18,7 +22,11 @@ export default {
       lightGrey: "#978580",
       darkGrey: "#3f4441",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        cyanShadow: "0px 0px 20px 0px rgba(94, 206, 220, 0.5)",
+      },
+    },
     fontFamily: {
       body: ["Josefin Sans"],
       special: ["Roboto"],
