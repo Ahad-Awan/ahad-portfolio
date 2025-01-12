@@ -5,6 +5,7 @@ function App() {
   return (
     <main className="font-body">
       <NavBarMain />
+      <heroMain />
     </main>
   );
 }
