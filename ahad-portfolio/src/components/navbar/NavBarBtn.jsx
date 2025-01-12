@@ -1,6 +1,5 @@
 import React from "react";
 import { IoMdDownload } from "react-icons/io";
-
 const NavBarBtn = () => {
   const downloadResume = () => {
     window.open("/ahad cv.pdf", "_blank");
