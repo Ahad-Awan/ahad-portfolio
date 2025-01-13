@@ -10,7 +10,7 @@ const heroText = () => {
         Muhammad Ahad
       </h1>
       <p className="text-lg mt-4 text-white">
-        A passionate Web Developer and Designer, Crafting Interactive and <br />
+        A passionate Web Developer and Designer, Crafting Interactive and
         Stunning Websites with Code and Creativity.
       </p>
     </div>
