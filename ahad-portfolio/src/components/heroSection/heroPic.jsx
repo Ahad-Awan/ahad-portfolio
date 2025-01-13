@@ -5,7 +5,7 @@ const heroPic = () => {
   return (
     <div className="h-full flex items-center justify-center">
       <img
-        src="../../public/images/ahadPic.png"
+        src="/images/ahadPic.png"
         alt="ahad image"
         className="max-h-[600px] w-auto"
       />
