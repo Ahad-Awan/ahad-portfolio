@@ -1,5 +1,4 @@
 import React from "react";
-import { PiHexagonThin } from "react-icons/pi";
 
 const heroPic = () => {
   return (
@@ -7,7 +6,7 @@ const heroPic = () => {
       <img
         src="/images/ahadPic.png"
         alt="ahad image"
-        className="max-h-[600px] w-auto"
+        className="max-h-[500px] w-auto"
       />
     </div>
   );
