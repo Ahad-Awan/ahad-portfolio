@@ -7,7 +7,7 @@ const NavBarlogo = () => {
         Muhammad Ahad
       </h1>
       <h1 className="text-white font-special font-bold text-4xl sm:block md:hidden">
-        Ahad
+        MA
       </h1>
     </div>
   );
