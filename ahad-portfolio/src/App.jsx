@@ -3,6 +3,7 @@ import HeroMain from "./components/heroSection/heroMain";
 import HeroGradient from "./components/heroSection/heroGradient";
 import SubHeroSection from "./components/heroSection/SubHeroSection";
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
+import HelperSection from "./components/HelperSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroGradient />
       <SubHeroSection />
       <AboutMeMain />
+      <HelperSection />
     </main>
   );
 }
