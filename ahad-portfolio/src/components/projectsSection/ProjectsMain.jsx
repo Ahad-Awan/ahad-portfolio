@@ -12,11 +12,11 @@ const projects = [
     image: "/images/ATA.png",
   },
   {
-    title: "Project 2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+    title: "E-Learn",
+    description: "Technologies : HTML and CSS",
     link: "#",
     align: "left",
-    image: "/images/website-img-2.webp",
+    image: "/images/E-Learn.png",
   },
   {
     title: "Project 3",
