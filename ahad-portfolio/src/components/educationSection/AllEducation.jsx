@@ -1,6 +1,8 @@
 import React from "react";
 import SingleEducation from "./SingleEducation";
 import { FaArrowRight } from "react-icons/fa6";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
 
 const educations = [
   {
@@ -47,7 +49,14 @@ const AllEducation = () => {
           <>
             <SingleEducation key={index} education={education} />
             {index < 2 ? (
-              <FaArrowRight className="text-6xl text-orange lg:block sm:hidden" />
+              <motion.div
+                variants={fadeIn("right", 0.2)}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0 }}
+              >
+                <FaArrowRight className="text-6xl text-orange lg:block sm:hidden" />
+              </motion.div>
             ) : (
               ""
             )}

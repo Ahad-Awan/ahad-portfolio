@@ -1,10 +1,16 @@
 import React from "react";
 import ContactMeLeft from "./ContactMeLeft";
 import ContactMeRight from "./ContactMeRight";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
 
 const ContactMeMain = () => {
   return (
-    <div
+    <motion.div
+      variants={fadeIn("down", 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0 }}
       id="contact"
       className="max-w-[1200px] mx-auto items-center justify-center mt-[100px] px-4"
     >
@@ -13,7 +19,7 @@ const ContactMeMain = () => {
         <ContactMeLeft />
         <ContactMeRight />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

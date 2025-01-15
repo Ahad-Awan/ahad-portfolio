@@ -1,10 +1,18 @@
 import React from "react";
 import ContactInfo from "./ContactInfo";
 import ContactSocial from "./ContactSocial";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
 
 const ContactMeRight = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-12">
+    <motion.div
+      variants={fadeIn("left", 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0 }}
+      className="flex flex-col items-center justify-center gap-12"
+    >
       <img
         src="/images/email-image.png"
         alt="Contact Me"
@@ -12,7 +20,7 @@ const ContactMeRight = () => {
       />
       <ContactInfo />
       <ContactSocial />
-    </div>
+    </motion.div>
   );
 };
 
