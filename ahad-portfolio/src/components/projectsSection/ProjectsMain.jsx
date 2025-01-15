@@ -14,7 +14,7 @@ const projects = [
   {
     title: "E-Learn",
     description: "Technologies : HTML and CSS",
-    link: "#",
+    link: "https://e-learn-seven.vercel.app/",
     align: "left",
     image: "/images/E-Learn.png",
   },
