@@ -18,20 +18,20 @@ const projects = [
     align: "left",
     image: "/images/E-Learn.png",
   },
-  {
-    title: "Project 3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-    link: "#",
-    align: "right",
-    image: "/images/website-img-3.jpg",
-  },
-  {
-    title: "Project 4",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-    link: "#",
-    align: "left",
-    image: "/images/website-img-4.jpg",
-  },
+  //   {
+  //     title: "Project 3",
+  //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+  //     link: "#",
+  //     align: "right",
+  //     image: "/images/website-img-3.jpg",
+  //   },
+  //   {
+  //     title: "Project 4",
+  //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+  //     link: "#",
+  //     align: "left",
+  //     image: "/images/website-img-4.jpg",
+  //   },
 ];
 
 const ProjectsMain = () => {
