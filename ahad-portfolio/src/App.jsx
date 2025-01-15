@@ -10,6 +10,7 @@ import ExperienceMain from "./components/experienceSection/ExperienceMain";
 import EducationMain from "./components/educationSection/EducationMain";
 import ProjectsMain from "./components/projectsSection/ProjectsMain";
 import ContactMeMain from "./components/contactMeSection/ContactMeMain";
+import FooterMain from "./components/footerSection/FooterMain";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <EducationMain />
       <ProjectsMain />
       <ContactMeMain />
+      <FooterMain />
       <HelperSection />
     </main>
   );
