@@ -12,9 +12,9 @@ const AboutMeText = () => {
         contribute to cutting edge advancements while continuously growing in my
         career.
       </p>
-      <button className="border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-black">
+      {/* <button className="border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-black">
         My Projects
-      </button>
+      </button> */}
     </div>
   );
 };
