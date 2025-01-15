@@ -3,7 +3,6 @@ import HeroMain from "./components/heroSection/heroMain";
 import HeroGradient from "./components/heroSection/heroGradient";
 import SubHeroSection from "./components/heroSection/SubHeroSection";
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
-import HelperSection from "./components/HelperSection";
 import SkillsMain from "./components/skillSection/SkillsMain";
 import SubSkills from "./components/skillSection/SubSkills";
 import ExperienceMain from "./components/experienceSection/ExperienceMain";
@@ -27,7 +26,6 @@ function App() {
       <ProjectsMain />
       <ContactMeMain />
       <FooterMain />
-      <HelperSection />
     </main>
   );
 }
